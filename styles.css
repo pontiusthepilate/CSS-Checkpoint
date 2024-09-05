@@ -1,0 +1,19 @@
+/* Import Roboto font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Apply Roboto font to the whole page */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Make navbar inline */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
